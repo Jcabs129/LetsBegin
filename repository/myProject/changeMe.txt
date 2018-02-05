@@ -1,6 +1,0 @@
-This is some text to test
-
-This is to test that my ssh connection works.
-
-
-sadfakljdsfjkadjsfk
