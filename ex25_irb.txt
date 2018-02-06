@@ -1,0 +1,57 @@
+
+
+#Using this I want you to type each of these lines of Ruby code into irb and see what it does:
+
+module Ex25
+
+
+#'Require' is to retrieve a specific file stated "./ex25.rb"
+require "./ex25.rb"
+
+#the output is made into a sentence "All good things come to those who wait."
+sentence = "All good things come to those who wait."
+
+#this line beak the words in to single quotes e.g. "All" "good" "things"
+words = Ex25.break_words(sentence)
+
+#will print out every word (singular) within the sentence
+words
+
+#This specific variable 'sort_words' arranges the words within the sentence alphabetically
+sorted_words = Ex25.sort_words(words)
+
+#Display the value of sorted_words
+sorted_words
+
+#This specific syntax prints out the first word within the sentence
+Ex25.print_first_word(words)
+
+#This specific syntax prints out the last word within the sentence
+Ex25.print_last_word(words)
+
+words
+
+#prints out the first word in the sentence
+Ex25.print_first_word(sorted_words)
+
+#prints out the last word of the sentence
+Ex25.print_last_word(sorted_words)
+
+#this variable when run will print out all the words alphabetically apart from "All" and "who"? why?
+
+sorted_words
+
+
+sorted_words = Ex25.sort_sentence(sentence)
+sorted_words
+
+# call the print_first_and_last function on the sentence
+# a copy of the sentence is created for the function
+# the sentence is broken up into word, and
+# the first and last words are printed
+Ex25.print_first_and_last(sentence)
+
+# call the print_first_and_last function on the sentence
+# a copy of the sentence is split up into words,
+# the words are sorted, then the first and last words are printed
+Ex25.print_first_and_last_sorted(sentence)

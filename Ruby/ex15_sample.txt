@@ -1,0 +1,11 @@
+# Exercise 15: Reading Files
+
+This is stuff i typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have.
+
+=begin
+What we want to do is "open" that file in our script and print it out. However, we do not want to just "hard code" the name ex15_sample.txt into our script.
+"Hard coding" means putting some bit of information that should come from the user as a string directly in our source code.
+
+=end

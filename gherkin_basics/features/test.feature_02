@@ -1,0 +1,10 @@
+Feature: Feedback when there is no connectivity, when user tries to login in
+
+  Background:
+  Given I have filled in all the relevant fields
+  And The device suddenly has no connectivity
+
+  Scenario: No connectivity on login view
+  Given I have filled in all relevant fields
+  And I Tap on the log in button
+  Then User must get a prompt message advising the user that there is no connectivity
